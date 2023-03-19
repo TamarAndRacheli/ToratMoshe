@@ -31,6 +31,7 @@ const Toolbar=()=>{
             <MegaMenu model={items} orientation="horizontal" start={end} end={start} breakpoint="960px" />
             <button  onClick={()=>navigate("LogIn")}>logIn</button>
             <button  onClick={()=>navigate("Contact")}>Contact</button>
+            <button  onClick={()=>navigate("Handwriting")}>Handwriting</button>
         </div>
     )
 }

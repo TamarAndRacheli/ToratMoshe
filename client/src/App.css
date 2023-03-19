@@ -15,7 +15,7 @@ code {
 html {
   font-size: 14px;
   /* text-align: center; */
-  /* direction: rtl; */
+  direction: rtl;
 }
 
 body {
@@ -35,6 +35,8 @@ body {
   padding: 2rem;
   border-radius: 10px;
   margin-bottom: 1rem;
+  width: 70%;
+  margin: auto;
  
 }
 /* #register {

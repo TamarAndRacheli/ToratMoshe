@@ -35,7 +35,7 @@ usersRouter.route("/authorization")
     .put(verifyJWT, userController.updateUserAuthorization)
 
 usersRouter.route("/usersList")
-    .get(verifyJWT, userController.getAllUsers)
+    .get(userController.getAllUsers)
 
     
 
